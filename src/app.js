@@ -27,7 +27,7 @@ const notFoundMiddleware = require("./middleware/not-found");
 
 const corsOrigin =
   process.env.NODE_ENV === "production"
-    ? process.env.FLASHCARDS_API_BASE_URL
+    ? "https://ee-prac-team4-front.vercel.app"
     : "http://localhost:3000";
 
 app.use(
